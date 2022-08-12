@@ -20,6 +20,6 @@ public class testExamples {
 	@Test
 	public void test_2() {
 		given().get("https://reqres.in/api/users?page=2");
-		
+		System.out.println("Hi");
 	}
 }
