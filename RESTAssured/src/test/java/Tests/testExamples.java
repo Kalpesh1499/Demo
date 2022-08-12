@@ -14,12 +14,12 @@ public class testExamples {
 		System.out.println(rp.getStatusCode());
 		System.out.println(rp.statusLine().toString());
 		System.out.println(rp.asPrettyString());
-		System.out.println("Successfully tested");
+		
 	}
 
 	@Test
 	public void test_2() {
 		given().get("https://reqres.in/api/users?page=2");
-		System.out.println("Hi");
+		
 	}
 }
